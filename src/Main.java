@@ -31,5 +31,32 @@ public class Main {
         double summaOrBa = orangesDis * weightOranges + bananasRub * weightBananas;
         System.out.println(summaOrBa);
 
+        int champagne = 2870;
+        int champagneDiscount = 50;
+        double newChampagne = champagne - champagne * (champagneDiscount/100d);
+        int bread = 27;
+        int champagneCount = 7;
+        int breadCount = 1;
+        double summaChBr = newChampagne * champagneCount + breadCount * bread;
+        System.out.println("Сумма покупки составила " +summaChBr);
+
+        int champ = 436;
+        int white = 578;
+        int disW = 5;
+        double newWhite = white - white * (disW / 100d);
+        double weightCh = 2.5;
+        double weightWh = 3.75;
+        double summaMush = newWhite * weightWh + champ * weightCh;
+        System.out.println(summaMush);
+
+        double x = 0.40;
+        double y = 0.87;
+        double z = 11 * x + y;
+        System.out.println(z);
+        double l = (x + 10 * y) - 15 * ( x / y);
+        System.out.println(l);
+
+
+
     }
 }
